@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px ;
+    font-family: 'Satoshi', sans-serif;
+    background-color: rgb(36, 36, 36);
+}
+/* estilo del header*/
+
+.logofoto{
+    height: 30px;
+    width: 90px;
+}
+.container{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    border-bottom: 0.5px solid gray;
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-header-container{
+    margin: 10px;
+}
+.rigth-header-container > nav{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.rigth-header-container > nav > a{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 7px;
+    color: white;
+}
+.rigth-header-container > nav > a:hover{
+    color: aqua;
+    transition: all,0.8s;
+}
+
+
+/*estilos del article*/
+
+article{
+    display: grid;
+    grid-auto-rows: 2;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container{
+    display: flex;
+    margin-top: 40px;
+    position:relative;
+    height: 500px;
+    width: 500px;
+
+}
+.img-container>img{
+    width: 50px;
+    height: 150px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: .5s ease;
+
+}
+.img-container>img:hover{
+    width:200px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.article2 > table, th , td {
+    border: 1px solid gray ;
+    color: aliceblue;
+    
+    }
+    .article2 > table {
+        width: 300px;
+    }
